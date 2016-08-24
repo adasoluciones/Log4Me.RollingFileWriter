@@ -1,0 +1,2968 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Development.Log4Me</name>
+    </assembly>
+    <members>
+        <member name="T:Ada.Framework.Development.Log4Me.Config.Entities.AssemblyTag">
+            <summary>
+            Tag que representa un ensamblado.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 30/03/2016 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="P:Ada.Framework.Development.Log4Me.Config.Entities.AssemblyTag.Title">
+            <summary>
+            Permite obtener o establecer las condiciones aplicables al nombre (título) de un ensamblado.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 30/03/2016 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="P:Ada.Framework.Development.Log4Me.Config.Entities.AssemblyTag.Configuration">
+            <summary>
+            Permite obtener o establecer la configuración de compilación de un ensamblado. Tales como RELEASE o DEBUG.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 30/03/2016 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="P:Ada.Framework.Development.Log4Me.Config.Entities.AssemblyTag.Company">
+            <summary>
+            Permite obtener o establecer las condiciones aplicables a la compañia que creo un ensamblado.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 30/03/2016 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="P:Ada.Framework.Development.Log4Me.Config.Entities.AssemblyTag.GUID">
+            <summary>
+            Permite obtener o establecer el identificador único global (GUID) del ensamblado.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 30/03/2016 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="P:Ada.Framework.Development.Log4Me.Config.Entities.AssemblyTag.MinimalVersion">
+            <summary>
+            Permite obtener o establecer la versión mínima de un ensamblado.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 30/03/2016 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="P:Ada.Framework.Development.Log4Me.Config.Entities.AssemblyTag.MaxiumVersion">
+            <summary>
+            Permite obtener o establecer la versión máxima de un ensamblado.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 30/03/2016 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="P:Ada.Framework.Development.Log4Me.Config.Entities.AssemblyTag.MinimalFileVersion">
+            <summary>
+            Permite obtener o establecer la versión mínima del archivo.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 30/03/2016 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="P:Ada.Framework.Development.Log4Me.Config.Entities.AssemblyTag.MaxiumFileVersion">
+            <summary>
+            Permite obtener o establecer la versión máxima del archivo.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 30/03/2016 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="M:Ada.Framework.Development.Log4Me.Config.Entities.AssemblyTag.CompararVersiones(System.String,System.String)">
+            <summary>
+            Compara 2 versiones y retorna -1 en caso que versionB sea menor a versionA, 1 en caso que versionB sea mayor a versionA, o 0 en caso que sean iguales.
+            Si versionB o un segmento (separados por ".") de éste sea igual a "*" lo coinciderará como iguales.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 10/04/2016 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+            <param name="versionA">Versión de referencia.</param>
+            <param name="versionB">Versión a comparar.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Ada.Framework.Development.Log4Me.Config.Entities.AssemblyTag.ObtenerSegmentoNumericoVersion(System.String)">
+            <summary>
+            Obtiene el segmento de versión como un valor numérico.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 10/04/2016 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+            <param name="segmentoVersion">Segmento de versión.</param>
+            <returns></returns>
+        </member>
+        <member name="T:Ada.Framework.Development.Log4Me.Config.Entities.AssemblyTitleTag">
+            <summary>
+            Representa las condiciones aplicables al nombre (título) de un ensamblado.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 30/03/2016 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="T:Ada.Framework.Development.Log4Me.Config.Entities.AssemblyCompanyTag">
+            <summary>
+            Representa las condiciones aplicables a la compañía de un ensamblado.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 30/03/2016 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="T:Ada.Framework.Development.Log4Me.Config.Entities.ClassTag">
+            <summary>
+            Tag que representa una clase.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 30/03/2016 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="P:Ada.Framework.Development.Log4Me.Config.Entities.ClassTag.isPublic">
+            <summary>
+            Permite obtener o establecer el valor que indica si se debe exigir que la clase haya sido declarada como pública.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 30/03/2016 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="P:Ada.Framework.Development.Log4Me.Config.Entities.ClassTag.isPrivate">
+            <summary>
+            Permite obtener o establecer el valor que indica si se debe exigir que la clase haya sido declarada como privada.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 30/03/2016 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="P:Ada.Framework.Development.Log4Me.Config.Entities.ClassTag.isInternal">
+            <summary>
+            Permite obtener o establecer el valor que indica si se debe exigir que la clase haya sido declarada como interna (de un ensamblado).
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 30/03/2016 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="T:Ada.Framework.Development.Log4Me.Config.Entities.CondicionSimple">
+            <summary>
+            Representa una condición simple de valores.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 30/03/2016 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="P:Ada.Framework.Development.Log4Me.Config.Entities.CondicionSimple.Contains">
+            <summary>
+            Permite obtener o establecer la condición que el valor a comparar contenga el valor de esta propiedad.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 30/03/2016 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="P:Ada.Framework.Development.Log4Me.Config.Entities.CondicionSimple.NotContains">
+            <summary>
+            Permite obtener o establecer la condición que el valor a comparar no contenga el valor de esta propiedad.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 30/03/2016 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="P:Ada.Framework.Development.Log4Me.Config.Entities.CondicionSimple.EndWith">
+            <summary>
+            Permite obtener o establecer la condición que el valor a comparar termine en el valor de esta propiedad.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 30/03/2016 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="P:Ada.Framework.Development.Log4Me.Config.Entities.CondicionSimple.NotEndWith">
+            <summary>
+            Permite obtener o establecer la condición que el valor a comparar no termine en el valor de esta propiedad.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 30/03/2016 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="P:Ada.Framework.Development.Log4Me.Config.Entities.CondicionSimple.Equals">
+            <summary>
+            Permite obtener o establecer la condición que el valor a comparar sea igual al valor de esta propiedad.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 30/03/2016 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="P:Ada.Framework.Development.Log4Me.Config.Entities.CondicionSimple.NotEquals">
+            <summary>
+            Permite obtener o establecer la condición que el valor a comparar no sea igual al valor de esta propiedad.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 30/03/2016 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="P:Ada.Framework.Development.Log4Me.Config.Entities.CondicionSimple.FullEquals">
+            <summary>
+            Permite obtener o establecer la condición que el valor completo a comparar sea igual al valor de esta propiedad.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 30/03/2016 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="P:Ada.Framework.Development.Log4Me.Config.Entities.CondicionSimple.NotFullEquals">
+            <summary>
+            Permite obtener o establecer la condición que el valor completo a comparar no sea igual al valor de esta propiedad.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 30/03/2016 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="P:Ada.Framework.Development.Log4Me.Config.Entities.CondicionSimple.StartWith">
+            <summary>
+            Permite obtener o establecer la condición que el valor a comparar comience por el valor de esta propiedad.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 30/03/2016 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="P:Ada.Framework.Development.Log4Me.Config.Entities.CondicionSimple.NotStartWith">
+            <summary>
+            Permite obtener o establecer la condición que el valor a comparar no comience por el valor de esta propiedad.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 30/03/2016 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="P:Ada.Framework.Development.Log4Me.Config.Entities.CondicionSimple.IgnoreCase">
+            <summary>
+            Permite obtener o establecer la condición de si se debe tomar o no en cuenta las mayúsculas.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 30/03/2016 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="T:Ada.Framework.Development.Log4Me.Config.Entities.ExcludeTag">
+            <summary>
+            Tag que representa entidades que de cumplir ciertas condiciones, se deben excluir.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 30/03/2016 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="T:Ada.Framework.Development.Log4Me.Config.Entities.Filtro">
+            <summary>
+            Representa al filtro aplicable a los registros a logear.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 30/03/2016 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="P:Ada.Framework.Development.Log4Me.Config.Entities.Filtro.Assembly">
+            <summary>
+            Permite obtener o establecer la condición que guarda relación con el ensamblado del registro.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 30/03/2016 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="P:Ada.Framework.Development.Log4Me.Config.Entities.Filtro.NameSpace">
+            <summary>
+            Permite obtener o establecer la condición que guarda relación con el espacio de nombres del registro.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 30/03/2016 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="P:Ada.Framework.Development.Log4Me.Config.Entities.Filtro.Clase">
+            <summary>
+            Permite obtener o establecer la condición que guarda relación con la clase del registro.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 30/03/2016 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="P:Ada.Framework.Development.Log4Me.Config.Entities.Filtro.Metodo">
+            <summary>
+            Permite obtener o establecer la condición que guarda relación con el método del registro.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 30/03/2016 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="T:Ada.Framework.Development.Log4Me.Config.Entities.IncludeTag">
+            <summary>
+            Tag que representa entidades que de cumplir ciertas condiciones, se deben incluir.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 30/03/2016 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="T:Ada.Framework.Development.Log4Me.Config.Entities.TypeTag">
+            <summary>
+            Tag que representa el tipo del registro que de cumplir ciertas condiciones, se deben excluir.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 10/04/2016 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="P:Ada.Framework.Development.Log4Me.Config.Entities.TypeTag.Nombre">
+            <summary>
+            Permite obtener o establecer el nombre del escritor.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 10/04/2016 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="P:Ada.Framework.Development.Log4Me.Config.Entities.TypeTag._Nombre">
+            <summary>
+            Permite obtener o establecer el nombre del escritor.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 10/04/2016 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="P:Ada.Framework.Development.Log4Me.Config.Entities.TypeTag.Nivel">
+            <summary>
+            Permite obtener o establecer el nivel del mensaje.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 10/04/2016 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="P:Ada.Framework.Development.Log4Me.Config.Entities.TypeTag._Nivel">
+            <summary>
+            Permite obtener o establecer el nivel del mensaje.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 10/04/2016 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="P:Ada.Framework.Development.Log4Me.Config.Entities.TypeTag.Modo">
+            <summary>
+            Permite obtener o establecer el modo del escritor.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 10/04/2016 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="P:Ada.Framework.Development.Log4Me.Config.Entities.TypeTag._Modo">
+            <summary>
+            Permite obtener o establecer el modo del escritor.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 10/04/2016 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="T:Ada.Framework.Development.Log4Me.Config.Entities.Log4MeConfig">
+            <summary>
+            Tag raíz que representa la configuración de Log4Me.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 10/04/2016 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="P:Ada.Framework.Development.Log4Me.Config.Entities.Log4MeConfig.Writers">
+            <summary>
+            Permite obtener o establecer los escritores del log.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 10/04/2016 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="M:Ada.Framework.Development.Log4Me.Config.Entities.Log4MeConfig.#ctor">
+            <summary>
+            Constructor que inicializa la instancia.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 10/04/2016 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="M:Ada.Framework.Development.Log4Me.Config.Entities.Log4MeConfig.ObtenerWriter``1">
+            <summary>
+            Obtiene el primer escritor encontrado según el tipo pasado como argumento. De no encontrar ningúno, retornará <value>null</value>.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 10/04/2016 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+            <typeparam name="T">Tipo de escritor.</typeparam>
+            <returns>Escritor encontrado.</returns>
+        </member>
+        <member name="M:Ada.Framework.Development.Log4Me.Config.Entities.Log4MeConfig.estaActivo``1">
+            <summary>
+            Obtiene un valor que indica si esta activo un escritor.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 10/04/2016 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+            <typeparam name="T">Tipo de escritor.</typeparam>
+            <returns><value>true</value> en caso de estar activo, o <value>false</value> de lo contrario.</returns>
+        </member>
+        <member name="T:Ada.Framework.Development.Log4Me.Config.Entities.MethodTag">
+            <summary>
+            Tag que representa un método.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 10/04/2016 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="P:Ada.Framework.Development.Log4Me.Config.Entities.MethodTag.isPublic">
+            <summary>
+            Permite obtener o establecer el valor que indica si se debe exigir que la clase haya sido declarada como pública.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 10/04/2016 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="P:Ada.Framework.Development.Log4Me.Config.Entities.MethodTag.isPrivate">
+            <summary>
+            Permite obtener o establecer el valor que indica si se debe exigir que la clase haya sido declarada como privada.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 10/04/2016 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="P:Ada.Framework.Development.Log4Me.Config.Entities.MethodTag.isInternal">
+            <summary>
+            Permite obtener o establecer el valor que indica si se debe exigir que la clase haya sido declarada como interna (de un ensamblado).
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 10/04/2016 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="P:Ada.Framework.Development.Log4Me.Config.Entities.MethodTag.isStatic">
+            <summary>
+            Permite obtener o establecer el valor que indica si se debe exigir que la clase haya sido declarada como estática (de un ensamblado).
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 10/04/2016 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="T:Ada.Framework.Development.Log4Me.Config.Entities.NameSpaceTag">
+            <summary>
+            Tag que representa un espacio de nombres (NameSpace).
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 10/04/2016 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="T:Ada.Framework.Development.Log4Me.Config.Log4MeConfigManager">
+            <summary>
+            Administrador de la configuración de Log4Me.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 10/04/2016 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="P:Ada.Framework.Development.Log4Me.Config.Log4MeConfigManager.NombreArchivoConfiguracion">
+            <summary>
+            Permite obtener el nombre del archivo de configuración en Web.Config o App.Config.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 10/04/2016 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="P:Ada.Framework.Development.Log4Me.Config.Log4MeConfigManager.NombreArchivoValidacionConfiguracion">
+            <summary>
+            Permite obtener el nombre del archivo de validación (XSD) del XML establecido en Web.Config o App.Config.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 10/04/2016 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="P:Ada.Framework.Development.Log4Me.Config.Log4MeConfigManager.ValidarXmlSchema">
+            <summary>
+            Permite obtener un valor que indica si se debe validar el XML mediante un XSD.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 10/04/2016 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="P:Ada.Framework.Development.Log4Me.Config.Log4MeConfigManager.NombreArchivoPorDefecto">
+            <summary>
+            Permite obtener el nombre del archivo de configuración por defecto.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 10/04/2016 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="P:Ada.Framework.Development.Log4Me.Config.Log4MeConfigManager.NombreArchivoValidacionPorDefecto">
+            <summary>
+            Permite obtener el nombre del archivo de validación (XSD) del XML por defecto.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 10/04/2016 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="M:Ada.Framework.Development.Log4Me.Config.Log4MeConfigManager.ObtenerXmlSerializer">
+            <summary>
+            Obtiene el serializador XML para el archivo de configuración. Carga los ensamblados de los escritores de Log4Me.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 10/04/2016 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+            <returns></returns>
+        </member>
+        <member name="M:Ada.Framework.Development.Log4Me.Config.Log4MeConfigManager.ValidarXml(System.Xml.XmlDocument)">
+            <summary>
+            Valida el archivo de configuración.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 10/04/2016 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+            <param name="documento">Archivo de configuración como documento XML.</param>
+        </member>
+        <member name="T:Ada.Framework.Development.Log4Me.Entities.ExcepcionTO">
+            <summary>
+            Representación del registro de una excepción.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 02/03/2015 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="P:Ada.Framework.Development.Log4Me.Entities.ExcepcionTO.Mensaje">
+            <summary>
+            Obtiene o establece el mensaje de la excepción.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 02/03/2015 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="P:Ada.Framework.Development.Log4Me.Entities.ExcepcionTO.Tipo">
+            <summary>
+            Obtiene o establece el tipo (clase) de la instancia de excepción.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 02/03/2015 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="P:Ada.Framework.Development.Log4Me.Entities.ExcepcionTO.StackTrace">
+            <summary>
+            Obtiene o establece la pila de llamados que contiene la excepción.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 02/03/2015 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="P:Ada.Framework.Development.Log4Me.Entities.ExcepcionTO.Data">
+            <summary>
+            Obtiene o establece datos adicionales que fueron recogidos al lanzarse la excepción.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 02/03/2015 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="T:Ada.Framework.Development.Log4Me.Entities.InicioTO">
+            <summary>
+            Representación del registro del inicio de un método.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 02/03/2015 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="T:Ada.Framework.Development.Log4Me.Entities.MensajeTO">
+            <summary>
+            Representación del registro de un mensaje en el flujo de un método.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 02/03/2015 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="P:Ada.Framework.Development.Log4Me.Entities.MensajeTO.Mensaje">
+            <summary>
+            Obtiene o establece el mensaje del flujo de un método.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 02/03/2015 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="P:Ada.Framework.Development.Log4Me.Entities.MensajeTO.Nivel">
+            <summary>
+            Obtiene o establece el nivel del mensaje.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 02/03/2015 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="T:Ada.Framework.Development.Log4Me.Entities.MetodoTO">
+            <summary>
+             Representación del registro de un método.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 02/03/2015 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="M:Ada.Framework.Development.Log4Me.Entities.MetodoTO.#ctor">
+            <summary>
+            Constructor que inicializa las propiedades de la instancia.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 02/03/2015 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="P:Ada.Framework.Development.Log4Me.Entities.MetodoTO.Inicio">
+            <summary>
+            Obtiene o establece el registro del inicio del método.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 02/03/2015 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="P:Ada.Framework.Development.Log4Me.Entities.MetodoTO.Parametros">
+            <summary>
+            Obtiene o establece el registro de los parámetros del método.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 02/03/2015 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="P:Ada.Framework.Development.Log4Me.Entities.MetodoTO.Llamadas">
+            <summary>
+            Obtiene o establece el registro de las llamadas que realizó el método a otros o a sí mismo.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 02/03/2015 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="P:Ada.Framework.Development.Log4Me.Entities.MetodoTO.Mensajes">
+            <summary>
+            Obtiene o establece el registro los mensajes que fueron guardados por el método.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 02/03/2015 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="P:Ada.Framework.Development.Log4Me.Entities.MetodoTO.Excepciones">
+            <summary>
+            Obtiene o establece el registro las excepciones lanzadas en el método.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 02/03/2015 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="P:Ada.Framework.Development.Log4Me.Entities.MetodoTO.Variables">
+            <summary>
+            Obtiene o establece el registro las variables existentes en el método.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 02/03/2015 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="P:Ada.Framework.Development.Log4Me.Entities.MetodoTO.Retorno">
+            <summary>
+            Obtiene o establece el registro del retorno del método.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 02/03/2015 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="T:Ada.Framework.Development.Log4Me.Entities.Nivel">
+            <summary>
+            Enumeración de los niveles de mensajes disponibles.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 27/06/2016 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="M:Ada.Framework.Development.Log4Me.Entities.Nivel.#ctor(System.String)">
+            <summary>
+            Constructor que establece el código del nivel.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 27/06/2016 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+            <param name="codigo">Código del nivel.</param>
+        </member>
+        <member name="F:Ada.Framework.Development.Log4Me.Entities.Nivel.Alert">
+            <summary>
+            Obtiene el nivel de alerta. Valor de sólo lectura.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 27/06/2016 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="F:Ada.Framework.Development.Log4Me.Entities.Nivel.Debug">
+            <summary>
+            Obtiene el nivel de debug. Valor de sólo lectura.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 27/06/2016 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="F:Ada.Framework.Development.Log4Me.Entities.Nivel.Error">
+            <summary>
+            Obtiene el nivel de error. Valor de sólo lectura.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 27/06/2016 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="F:Ada.Framework.Development.Log4Me.Entities.Nivel.Fatal">
+            <summary>
+            Obtiene el nivel fatal. Valor de sólo lectura.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 27/06/2016 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="F:Ada.Framework.Development.Log4Me.Entities.Nivel.Info">
+            <summary>
+            Obtiene el nivel de info. Valor de sólo lectura.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 27/06/2016 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="F:Ada.Framework.Development.Log4Me.Entities.Nivel.Success">
+            <summary>
+            Obtiene el nivel de éxito. Valor de sólo lectura.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 27/06/2016 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="T:Ada.Framework.Development.Log4Me.Entities.ParametroTO">
+            <summary>
+            Representación del registro del parámetro de un método.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 02/03/2015 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="T:Ada.Framework.Development.Log4Me.Entities.RegistroInLineTO">
+            <summary>
+            Representación de un registro del log (una línea en el txt).
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 02/03/2015 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="P:Ada.Framework.Development.Log4Me.Entities.RegistroInLineTO.ThreadGUID">
+            <summary>
+            Obtiene o establece el identificador único del hilo(GUID).
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 02/03/2015 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="P:Ada.Framework.Development.Log4Me.Entities.RegistroInLineTO.MethodGUID">
+            <summary>
+            Obtiene o establece el identificador único del método(GUID).
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 02/03/2015 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="P:Ada.Framework.Development.Log4Me.Entities.RegistroInLineTO.Namespace">
+            <summary>
+            Obtiene o establece el espacio de nombres al que pertenece la clase.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 02/03/2015 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="P:Ada.Framework.Development.Log4Me.Entities.RegistroInLineTO.Clase">
+            <summary>
+            Obtiene o establece el nombre de la clase a la que pertenece el método.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 02/03/2015 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="P:Ada.Framework.Development.Log4Me.Entities.RegistroInLineTO.Metodo">
+            <summary>
+            Obtiene o establece el nombre del método de que se está registrando.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 02/03/2015 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="P:Ada.Framework.Development.Log4Me.Entities.RegistroInLineTO.Tipo">
+            <summary>
+            Obtiene o establece el tipo de registro.
+            </summary>
+            <example>
+                -Tipo.Inicio
+                -Tipo.Parametro
+                -Tipo.Variable
+                -Tipo.Excepcion
+                -Tipo.Mensaje
+                -Tipo.Retorno
+                ......
+            </example>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 02/03/2015 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="P:Ada.Framework.Development.Log4Me.Entities.RegistroInLineTO.Fecha">
+            <summary>
+            Obtiene o establece la fecha en que se registró el evento.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 02/03/2015 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="P:Ada.Framework.Development.Log4Me.Entities.RegistroInLineTO.NombreVariable">
+            <summary>
+            Obtiene o establece el nombre de la variable registrada.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 02/03/2015 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="P:Ada.Framework.Development.Log4Me.Entities.RegistroInLineTO.ValorVariable">
+            <summary>
+            Obtiene o establece el valor(estado) de la variable registrada.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 02/03/2015 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="P:Ada.Framework.Development.Log4Me.Entities.RegistroInLineTO.StackTrace">
+            <summary>
+            Obtiene o establece la pila de llamados que contiene la excepción.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 02/03/2015 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="P:Ada.Framework.Development.Log4Me.Entities.RegistroInLineTO.Data">
+            <summary>
+            Obtiene o establece datos adicionales que fueron recogidos al lanzarse la excepción.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 02/03/2015 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="P:Ada.Framework.Development.Log4Me.Entities.RegistroInLineTO.TipoExcepcion">
+            <summary>
+            Obtiene o establece el tipo (clase) de la instancia de excepción.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 02/03/2015 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="P:Ada.Framework.Development.Log4Me.Entities.RegistroInLineTO.Mensaje">
+            <summary>
+            Obtiene o establece el mensaje del flujo de un método.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 02/03/2015 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="P:Ada.Framework.Development.Log4Me.Entities.RegistroInLineTO.Nivel">
+            <summary>
+            Obtiene o establece el nivel del mensaje.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 02/03/2015 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="P:Ada.Framework.Development.Log4Me.Entities.RegistroInLineTO.Correlativo">
+            <summary>
+            Obtiene o establece el número (correlativo) de la llamada actual de la instancia en el método.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 02/03/2015 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="T:Ada.Framework.Development.Log4Me.Entities.RegistroTO">
+            <summary>
+            Representación del registro del flujo de un método.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 02/03/2015 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="P:Ada.Framework.Development.Log4Me.Entities.RegistroTO.ThreadGUID">
+            <summary>
+            Obtiene o establece el identificador único del hilo(GUID).
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 02/03/2015 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="P:Ada.Framework.Development.Log4Me.Entities.RegistroTO.MethodGUID">
+            <summary>
+            Obtiene o establece el identificador único del método(GUID).
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 02/03/2015 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="P:Ada.Framework.Development.Log4Me.Entities.RegistroTO.Namespace">
+            <summary>
+            Obtiene o establece el espacio de nombres al que pertenece la clase.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 02/03/2015 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="P:Ada.Framework.Development.Log4Me.Entities.RegistroTO.Clase">
+            <summary>
+            Obtiene o establece el nombre de la clase a la que pertenece el método.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 02/03/2015 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="P:Ada.Framework.Development.Log4Me.Entities.RegistroTO.Metodo">
+            <summary>
+            Obtiene o establece el nombre del método de que se está registrando.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 02/03/2015 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="P:Ada.Framework.Development.Log4Me.Entities.RegistroTO.Fecha">
+            <summary>
+            Obtiene o establece la fecha en que se registró el evento.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 02/03/2015 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="P:Ada.Framework.Development.Log4Me.Entities.RegistroTO.Llamada">
+            <summary>
+             Obtiene o establece el número de la llamada actual de la instancia en el método.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 02/03/2015 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="T:Ada.Framework.Development.Log4Me.Entities.RetornoTO">
+            <summary>
+            Representación del registro del retorno de un método.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 02/03/2015 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="P:Ada.Framework.Development.Log4Me.Entities.RetornoTO.Valor">
+            <summary>
+            Obtiene o establece el valor retornado.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 02/03/2015 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="T:Ada.Framework.Development.Log4Me.Entities.Tipo">
+            <summary>
+            Enumeración de los tipos de registros de Log4Me.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 27/06/2016 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="M:Ada.Framework.Development.Log4Me.Entities.Tipo.#ctor(System.String)">
+            <summary>
+            Constructor que establece el código del tipo.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 27/06/2016 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+            <param name="codigo">Código del tipo.</param>
+        </member>
+        <member name="F:Ada.Framework.Development.Log4Me.Entities.Tipo.Inicio">
+            <summary>
+            Obtiene el tipo que indica el inicio de un método. Valor de sólo lectura.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 27/06/2016 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="F:Ada.Framework.Development.Log4Me.Entities.Tipo.Parametro">
+            <summary>
+            Obtiene el tipo que indica un parámetro de entrada de un método. Valor de sólo lectura.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 27/06/2016 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="F:Ada.Framework.Development.Log4Me.Entities.Tipo.Variable">
+            <summary>
+            Obtiene el tipo que indica una variable de una método. Valor de sólo lectura.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 27/06/2016 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="F:Ada.Framework.Development.Log4Me.Entities.Tipo.Excepcion">
+            <summary>
+            Obtiene el tipo que indica una excepción lanzada en un método. Valor de sólo lectura.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 27/06/2016 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="F:Ada.Framework.Development.Log4Me.Entities.Tipo.Mensaje">
+            <summary>
+            Obtiene el tipo que indica un mensaje registrado en un método. Valor de sólo lectura.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 27/06/2016 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="F:Ada.Framework.Development.Log4Me.Entities.Tipo.Retorno">
+            <summary>
+            Obtiene el tipo que indica el retorno de un método. Valor de sólo lectura.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 27/06/2016 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="F:Ada.Framework.Development.Log4Me.Entities.Tipo.Identificador">
+            <summary>
+            Obtiene el tipo que indica el identificador del flujo. Valor de sólo lectura.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 27/06/2016 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="T:Ada.Framework.Development.Log4Me.Entities.VariableTO">
+            <summary>
+            Representación del registro de una variable del método.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 02/03/2015 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="P:Ada.Framework.Development.Log4Me.Entities.VariableTO.Nombre">
+            <summary>
+            Obtiene o establece el nombre de la variable.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 02/03/2015 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="P:Ada.Framework.Development.Log4Me.Entities.VariableTO.Valor">
+            <summary>
+            Obtiene o establece el valor (estado) que tenía la variable en un momento determinado.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 02/03/2015 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="T:Ada.Framework.Development.Log4Me.Entities.Mapper.LogEntityMapper">
+            <summary>
+            Mapeador de entidades del Log.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 02/03/2015 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="M:Ada.Framework.Development.Log4Me.Entities.Mapper.LogEntityMapper.Convertir(System.Collections.Generic.IList{Ada.Framework.Development.Log4Me.Entities.RegistroInLineTO},System.Func{Ada.Framework.Development.Log4Me.Entities.RegistroInLineTO,System.Boolean})">
+            <summary>
+            Convierte una colección de registros (fieles al txt) mediante un filtro, a una representación de cada parte del flujo.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 02/03/2015 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+            <param name="registros">Colección de registros en línea(fieles al txt).</param>
+            <param name="filtro">Filtro para excluir elementos. <value>true</value> para incluir, <value>false</value> para excluir.</param>
+            <returns>Representación completa del flujo</returns>
+        </member>
+        <member name="M:Ada.Framework.Development.Log4Me.Entities.Mapper.LogEntityMapper.CargarArbol(Ada.Framework.Development.Log4Me.Entities.MetodoTO,System.Int32@,System.Collections.Generic.IList{Ada.Framework.Development.Log4Me.Entities.RegistroInLineTO},System.Func{Ada.Framework.Development.Log4Me.Entities.RegistroInLineTO,System.Boolean})">
+            <summary>
+            Carga una colección de registros (fieles al txt) mediante un filtro, a una representación de cada parte del flujo.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 02/03/2015 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+            <param name="retorno">Representación completa del flujo, para cargar los datos leídos.</param>
+            <param name="indiceInicio">Fila inicial a leer. Luego se continúa hasta el final.</param>
+            <param name="registros">Registros fieles el archivo plano (Origen de la información).</param>
+            <param name="filtro">Filtro para excluir elementos. <value>true</value> para incluir, <value>false</value> para excluir.</param>
+            <returns>Representación completa del flujo</returns>
+        </member>
+        <member name="T:Ada.Framework.Development.Log4Me.LogFactory">
+            <summary>
+            Factoría del Log.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 02/03/2015 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="M:Ada.Framework.Development.Log4Me.LogFactory.ObtenerLog(System.Type)">
+            <summary>
+            Obtener una implementación de Log4Me.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 02/03/2015 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+            <param name="clase">Clase que será logeada.</param>
+            <returns>Implementacion de Log4Me</returns>
+        </member>
+        <member name="M:Ada.Framework.Development.Log4Me.LogFactory.Inicializar">
+            <summary>
+            Inicializa el estado del log y carga los valores para su correcto funcionamiento. Debe ser llamado cada vez que se inicie un hilo, y antes
+            de logear cualquier cosa. (Se recomienda que en una aplicación web, se llame en Application_BeginRequest).
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 02/03/2015 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="T:Ada.Framework.Development.Log4Me.Logger`1">
+            <summary>
+            Contrato ha cumplir por un tipo de Logger de Log4Me.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 10/04/2016 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="P:Ada.Framework.Development.Log4Me.Logger`1.Llamada">
+            <summary>
+            Permite obtener o establecer el número de llamadas que ha realizado el método actual.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 10/04/2016 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="P:Ada.Framework.Development.Log4Me.Logger`1.InstanciaLog">
+            <summary>
+            Instancia de log.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 27/06/2016 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="P:Ada.Framework.Development.Log4Me.Logger`1.ThreadGUID">
+            <summary>
+            Obtiene el valor único (GUID) que identifíca el hilo de ejecución actual.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 27/06/2015 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="P:Ada.Framework.Development.Log4Me.Logger`1.MethodGUID">
+            <summary>
+             Obtiene el valor único (GUID) que identifíca la ejecución (método) actual.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                     1.0 27/06/2015 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="P:Ada.Framework.Development.Log4Me.Logger`1.Metodo">
+            <summary>
+            Permite obtener el método actual mediante reflexión.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                     1.0 27/06/2015 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="M:Ada.Framework.Development.Log4Me.Logger`1.#ctor(`0)">
+            <summary>
+            Constructor que inicializa la instancia y recibe una instancia de log.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                     1.0 27/06/2015 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+            <param name="instanciaLog">Instancia de Log.</param>
+        </member>
+        <member name="M:Ada.Framework.Development.Log4Me.Logger`1.#ctor">
+            <summary>
+            Constructor interno que inicializa la instancia.
+            Nota: Cargar posteriormente la instancia.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                     1.0 27/06/2015 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="P:Ada.Framework.Development.Log4Me.Logger`1.Writers">
+            <summary>
+            Permite obtener los escritores válidos para el método actual.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 10/04/2016 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="M:Ada.Framework.Development.Log4Me.Logger`1.Identificador(System.String)">
+            <summary>
+            Registra el identificador del hilo.
+            </summary>
+            <example>
+                Log.Identificador("18.662.059-3");
+            </example>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 02/03/2015 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+            <param name="identificador">Identificador del hilo</param>
+        </member>
+        <member name="M:Ada.Framework.Development.Log4Me.Logger`1.Inicio(System.Object[])">
+            <summary>
+            Registra el inicio de un método, guarda la hora actual y cada parametro especificando
+            nombre, tipo y valor. Se recomienda que esta sea la primera instrucción de cada método.
+            Si se logea el inicio, es obligatorio logear el retorno aunque el método sea Void.
+            </summary>
+            <example>
+                public void Metodo1(int a, string b, bool c)
+                {
+                    log.Inicio(a, b, c);
+                    log.Retorno();
+                }
+                
+                public void Metodo2()
+                {
+                    log.Inicio();
+                    log.Retorno();
+                }
+            </example>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 02/03/2015 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+            <param name="parametros">Lista de parametros del método actual.</param>
+        </member>
+        <member name="M:Ada.Framework.Development.Log4Me.Logger`1.Retorno(System.Object)">
+            <summary>
+            Registra el fin de la ejecución de un método, guardando la fecha de termino, el valor de retorno y su tipo.
+            Se debe logear antes de retornar. Requiere que se haya logeado el inicio del método.
+            </summary>
+            <example>
+                public int Sumar(int valor1, int valor2)
+                {
+                    log.Inicio(valor1, valor2);
+                    int resultado = valor1 + valor2;
+                    log.Retorno(resultado);
+                    return resultado;
+                }
+            </example>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 02/03/2015 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+            <param name="valor">Valor de retorno del método.</param>
+        </member>
+        <member name="M:Ada.Framework.Development.Log4Me.Logger`1.Retorno">
+            <summary>
+            Registra el fin de la ejecución de un método, guardando la fecha de termino, y un retorno de tipo Void.
+            Se debe logear antes de retornar. Requiere que se haya logeado el inicio del método.
+            </summary>
+            <example>
+                public void Metodo1()
+                {
+                    log.Retorno();
+                    // return; --> No es necesario. Sirve para ejemplificar que es el final del método.
+                }
+            </example>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 02/03/2015 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="M:Ada.Framework.Development.Log4Me.Logger`1.Excepcion(System.Exception,System.Boolean)">
+            <summary>
+            Registra la información relevante de una excepción lanzada por un método. Se debe logear antes de ser lanzada.
+            Requiere que el inicio y el retorno del método esté logeado.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 02/03/2015 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+            <param name="excepcion">Excepción lanzada.</param>
+            <param name="permiteContinuar">Valor que indica si la excepción interrumpe el flujo (no permite continuar).
+            En caso de ser falso, se logea automáticamente el retorno del método como Excepción.</param>
+        </member>
+        <member name="M:Ada.Framework.Development.Log4Me.Logger`1.Variable(System.String,System.Object)">
+            <summary>
+            Registra el nombre, tipo y valor de una variable en el método actual.
+            Requiere que el inicio y el retorno del método esté logeado.
+            </summary>
+            <example>
+                public int Sumar(int valor1, int valor2, int valor3)
+                {
+                    log.Inicio(valor1, valor2);
+                    int resultado = valor1 + valor2;
+                    
+                    log.Variable("resultado", resultado);
+                    retultado += valor3;
+                    
+                    log.Retorno(resultado);
+                    return resultado;
+                }
+            </example>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 02/03/2015 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+            <param name="nombre">Nombre de la variable.</param>
+            <param name="valor">Valor de la variable.</param>
+        </member>
+        <member name="M:Ada.Framework.Development.Log4Me.Logger`1.Mensaje(System.String,Ada.Framework.Development.Log4Me.Entities.Nivel)">
+            <summary>
+            Registra un mensaje con un nivel de importancia en el flujo del método actual.
+            Requiere que el inicio y el retorno del método esté logeado.
+            </summary>
+            <example>
+                public class UsuarioBO
+                {
+                    private UsuarioDAO dao = new UsuarioDAO();
+                    
+                    public void Agregar(UsuarioTO usuario)
+                    {
+                        log.Mensaje("Antes de llamar al DAO", Nivel.INFO);
+                        dao.Agregar(usuario);
+                        log.Mensaje("Luego de llamar al DAO", Nivel.INFO);
+                    }
+                }
+            </example>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 02/03/2015 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+            <param name="mensaje">Mensaje a registrar.</param>
+            <param name="nivel">Nivel de importancia o tipo del mensaje.</param>
+        </member>
+        <member name="M:Ada.Framework.Development.Log4Me.Logger`1.CargarPuntero``1(``0)">
+            <summary>
+            Carga el puntero del log (MethodGUID) en una excepción.
+            Es útil para guardar el puntero exactamente donde ocurrió la excepción.
+            </summary>
+            <example>
+                public class UsuarioDAO
+                {
+                    public void Agregar(UsuarioTO usuario)
+                    {
+                        try
+                        {
+                            //Llamada a base de datos.
+                        }
+                        catch(Exception e)
+                        {
+                            throw log.CargarPuntero(e);
+                        }
+                    }
+                }
+                
+                public class UsuarioBO
+                {
+                    private UsuarioDAO dao = new UsuarioDAO();
+                    
+                    public void Agregar(UsuarioTO usuario)
+                    {
+                        try
+                        {
+                            dao.Agregar(usuario);
+                        }catch(Exception e)
+                        {
+                            string MethodGUID = log.ObtenerPuntero(e);
+                        }
+                    }
+                }
+            </example>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 02/03/2015 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+            <typeparam name="E">Tipo de la excepción que se lanzó.</typeparam>
+            <param name="excepcion">Excepción que se lanzó.</param>
+            <returns>Excepción cargada.</returns>
+        </member>
+        <member name="M:Ada.Framework.Development.Log4Me.Logger`1.ObtenerPuntero(System.Exception)">
+            <summary>
+            Obtiene el puntero (MethodGUID) de una excepción con el puntero cargado mediante el método <see cref="M:Ada.Framework.Development.Log4Me.ILog.CargarPuntero``1(``0)"/>.
+            </summary>
+            <example>
+                public class UsuarioBO
+                {
+                    private UsuarioDAO dao = new UsuarioDAO();
+                    
+                    public void Agregar(UsuarioTO usuario)
+                    {
+                        try
+                        {
+                            dao.Agregar(usuario);
+                        }catch(Exception e)
+                        {
+                            string MethodGUID = log.ObtenerPuntero(e);
+                        }
+                    }
+                }
+                
+                public class UsuarioDAO
+                {
+                    public void Agregar(UsuarioTO usuario)
+                    {
+                        try
+                        {
+                            //Llamada a base de datos.
+                        }
+                        catch(Exception e)
+                        {
+                            log.CargarPuntero(e);
+                            throw e;
+                        }
+                    }
+                }
+            </example>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 02/03/2015 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+            <param name="excepcion">Excepción que contiene el puntero.</param>
+            <returns>MethodGUID.</returns>
+        </member>
+        <member name="T:Ada.Framework.Development.Log4Me.ILog">
+            <summary>
+            Contrato del Log.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 02/03/2015 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="P:Ada.Framework.Development.Log4Me.ILog.ThreadGUID">
+            <summary>
+            Obtiene el valor único (GUID) que identifíca el hilo de ejecución actual.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 02/03/2015 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="P:Ada.Framework.Development.Log4Me.ILog.MethodGUID">
+            <summary>
+             Obtiene el valor único (GUID) que identifíca la ejecución (método) actual.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 02/03/2015 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="P:Ada.Framework.Development.Log4Me.ILog.Metodo">
+            <summary>
+            Permite obtener el método actual mediante reflexión.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 10/04/2016 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="M:Ada.Framework.Development.Log4Me.ILog.Inicio(System.Object[])">
+            <summary>
+            Registra el inicio de un método, guarda la hora actual y cada parametro especificando
+            nombre, tipo y valor. Se recomienda que esta sea la primera instrucción de cada método.
+            Si se logea el inicio, es obligatorio logear el retorno aunque el método sea Void.
+            </summary>
+            <example>
+                public void Metodo1(int a, string b, bool c)
+                {
+                    log.Inicio(a, b, c);
+                    log.Retorno();
+                }
+                
+                public void Metodo2()
+                {
+                    log.Inicio();
+                    log.Retorno();
+                }
+            </example>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 02/03/2015 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+            <param name="parametros">Lista de parametros del método actual.</param>
+        </member>
+        <member name="M:Ada.Framework.Development.Log4Me.ILog.Retorno(System.Object)">
+            <summary>
+            Registra el fin de la ejecución de un método, guardando la fecha de termino, el valor de retorno y su tipo.
+            Se debe logear antes de retornar. Requiere que se haya logeado el inicio del método.
+            </summary>
+            <example>
+                public int Sumar(int valor1, int valor2)
+                {
+                    log.Inicio(valor1, valor2);
+                    int resultado = valor1 + valor2;
+                    log.Retorno(resultado);
+                    return resultado;
+                }
+            </example>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 02/03/2015 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+            <param name="valor">Valor de retorno del método.</param>
+        </member>
+        <member name="M:Ada.Framework.Development.Log4Me.ILog.Retorno">
+            <summary>
+            Registra el fin de la ejecución de un método, guardando la fecha de termino, y un retorno de tipo Void.
+            Se debe logear antes de retornar. Requiere que se haya logeado el inicio del método.
+            </summary>
+            <example>
+                public void Metodo1()
+                {
+                    log.Retorno();
+                    // return; --> No es necesario. Sirve para ejemplificar que es el final del método.
+                }
+            </example>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 02/03/2015 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="M:Ada.Framework.Development.Log4Me.ILog.Excepcion(System.Exception,System.Boolean)">
+            <summary>
+            Registra la información relevante de una excepción lanzada por un método. Se debe logear antes de ser lanzada.
+            Requiere que el inicio y el retorno del método esté logeado.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 02/03/2015 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+            <param name="excepcion">Excepción lanzada.</param>
+            <param name="permiteContinuar">Valor que indica si la excepción interrumpe el flujo (no permite continuar).
+            En caso de ser falso, se logea automáticamente el retorno del método como Excepción.</param>
+        </member>
+        <member name="M:Ada.Framework.Development.Log4Me.ILog.Variable(System.String,System.Object)">
+            <summary>
+            Registra el nombre, tipo y valor de una variable en el método actual.
+            Requiere que el inicio y el retorno del método esté logeado.
+            </summary>
+            <example>
+                public int Sumar(int valor1, int valor2, int valor3)
+                {
+                    log.Inicio(valor1, valor2);
+                    int resultado = valor1 + valor2;
+                    
+                    log.Variable("resultado", resultado);
+                    retultado += valor3;
+                    
+                    log.Retorno(resultado);
+                    return resultado;
+                }
+            </example>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 02/03/2015 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+            <param name="nombre">Nombre de la variable.</param>
+            <param name="valor">Valor de la variable.</param>
+        </member>
+        <member name="M:Ada.Framework.Development.Log4Me.ILog.Mensaje(System.String,Ada.Framework.Development.Log4Me.Entities.Nivel)">
+            <summary>
+            Registra un mensaje con un nivel de importancia en el flujo del método actual.
+            Requiere que el inicio y el retorno del método esté logeado.
+            </summary>
+            <example>
+                public class UsuarioBO
+                {
+                    private UsuarioDAO dao = new UsuarioDAO();
+                    
+                    public void Agregar(UsuarioTO usuario)
+                    {
+                        log.Mensaje("Antes de llamar al DAO", Nivel.INFO);
+                        dao.Agregar(usuario);
+                        log.Mensaje("Luego de llamar al DAO", Nivel.INFO);
+                    }
+                }
+            </example>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 02/03/2015 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+            <param name="mensaje">Mensaje a registrar.</param>
+            <param name="nivel">Nivel de importancia o tipo del mensaje.</param>
+        </member>
+        <member name="M:Ada.Framework.Development.Log4Me.ILog.CargarPuntero``1(``0)">
+            <summary>
+            Carga el puntero del log (MethodGUID) en una excepción.
+            Es útil para guardar el puntero exactamente donde ocurrió la excepción.
+            </summary>
+            <example>
+                public class UsuarioDAO
+                {
+                    public void Agregar(UsuarioTO usuario)
+                    {
+                        try
+                        {
+                            //Llamada a base de datos.
+                        }
+                        catch(Exception e)
+                        {
+                            throw log.CargarPuntero(e);
+                        }
+                    }
+                }
+                
+                public class UsuarioBO
+                {
+                    private UsuarioDAO dao = new UsuarioDAO();
+                    
+                    public void Agregar(UsuarioTO usuario)
+                    {
+                        try
+                        {
+                            dao.Agregar(usuario);
+                        }catch(Exception e)
+                        {
+                            string MethodGUID = log.ObtenerPuntero(e);
+                        }
+                    }
+                }
+            </example>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 02/03/2015 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+            <typeparam name="E">Tipo de la excepción que se lanzó.</typeparam>
+            <param name="excepcion">Excepción que se lanzó.</param>
+            <returns>Excepción cargada.</returns>
+        </member>
+        <member name="M:Ada.Framework.Development.Log4Me.ILog.ObtenerPuntero(System.Exception)">
+            <summary>
+            Obtiene el puntero (MethodGUID) de una excepción con el puntero cargado mediante el método <see cref="M:Ada.Framework.Development.Log4Me.ILog.CargarPuntero``1(``0)"/>.
+            </summary>
+            <example>
+                public class UsuarioBO
+                {
+                    private UsuarioDAO dao = new UsuarioDAO();
+                    
+                    public void Agregar(UsuarioTO usuario)
+                    {
+                        try
+                        {
+                            dao.Agregar(usuario);
+                        }catch(Exception e)
+                        {
+                            string MethodGUID = log.ObtenerPuntero(e);
+                        }
+                    }
+                }
+                
+                public class UsuarioDAO
+                {
+                    public void Agregar(UsuarioTO usuario)
+                    {
+                        try
+                        {
+                            //Llamada a base de datos.
+                        }
+                        catch(Exception e)
+                        {
+                            log.CargarPuntero(e);
+                            throw e;
+                        }
+                    }
+                }
+            </example>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 02/03/2015 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+            <param name="excepcion">Excepción que contiene el puntero.</param>
+            <returns>MethodGUID.</returns>
+        </member>
+        <member name="T:Ada.Framework.Development.Log4Me.Log4MeBO">
+            <summary>
+            Negocio de Log4Me.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 10/04/2016 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="F:Ada.Framework.Development.Log4Me.Log4MeBO.CUALQUIER_VALOR">
+            <summary>
+            Contiene el valor comodín que indica "Cualquier valor" (*).
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 10/04/2016 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="M:Ada.Framework.Development.Log4Me.Log4MeBO.ObtenerWriters(System.Reflection.MethodBase)">
+            <summary>
+            Obtiene los escritores en los que el método proporcionado cumple con las condiciones señaladas.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 10/04/2016 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+            <param name="metodo">Método a validar.</param>
+            <returns>Lista de escritores.</returns>
+        </member>
+        <member name="M:Ada.Framework.Development.Log4Me.Log4MeBO.CumpleCondicionSimple(Ada.Framework.Development.Log4Me.Config.Entities.CondicionSimple,System.String,System.String)">
+            <summary>
+            Verifica si un valor y su versión completa, cumple con una condición simple.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 10/04/2016 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+            <param name="condicion">Condición simple.</param>
+            <param name="valor">Valor a comprobar</param>
+            <param name="valorFull">Valor completo a comprobar.</param>
+            <returns></returns>
+        </member>
+        <member name="T:Ada.Framework.Development.Log4Me.Log">
+            <summary>
+            Anotacion utilizada para interceptar la ejecución de un método, registrando los datos de entrada, salida y excepción del método.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 20/11/2015 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="F:Ada.Framework.Development.Log4Me.Log.logger">
+            <summary>
+            Campo que contiene el utilitario de log.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 27/06/2016 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="F:Ada.Framework.Development.Log4Me.Log.methodGUID">
+            <summary>
+            Contiene el identificador único global (GUID) del método actual.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 10/04/2016 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="P:Ada.Framework.Development.Log4Me.Log.Metodo">
+            <summary>
+            Permite obtener el método actual mediante reflexión.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 10/04/2016 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="P:Ada.Framework.Development.Log4Me.Log.MethodGUID">
+            <summary>
+            Permite obtener el identificador único global (GUID) del método actual.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 10/04/2016 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="P:Ada.Framework.Development.Log4Me.Log.ThreadGUID">
+            <summary>
+            Obtiene el identificador único (GUID) del hilo actual.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 10/04/2016 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="M:Ada.Framework.Development.Log4Me.Log.CompileTimeValidate(System.Reflection.MethodBase)">
+            <summary>
+            Comrpueba si el método interceptado cumple las condiciones.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 20/11/2015 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+            <param name="method">Metodo interceptado accedido mediante reflexión.</param>
+            <returns><value>true</value> en caso de ser válido, o <value>false</value> de lo contrario.</returns>
+        </member>
+        <member name="M:Ada.Framework.Development.Log4Me.Log.OnEntry(PostSharp.Aspects.MethodExecutionArgs)">
+            <summary>
+            Es ejecutado al llamar a un método interceptado.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 20/11/2015 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+            <param name="args">Argumento con información de la llamada.</param>
+        </member>
+        <member name="M:Ada.Framework.Development.Log4Me.Log.OnExit(PostSharp.Aspects.MethodExecutionArgs)">
+            <summary>
+            Es ejecutado al salir del método interceptado.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 20/11/2015 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+            <param name="args">Argumento con información de la llamada.</param>
+        </member>
+        <member name="M:Ada.Framework.Development.Log4Me.Log.OnException(PostSharp.Aspects.MethodExecutionArgs)">
+            <summary>
+            Es ejecutado al lanzar una excepción desde el método interceptado.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 20/11/2015 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+            <param name="args">Argumento con información de la llamada.</param>
+        </member>
+        <member name="M:Ada.Framework.Development.Log4Me.Log.Identificador(System.String)">
+            <summary>
+            Logea el identifiador de ejecución del hilo actual. Es recomendable utilizar el RUN del usuario u otro valor que identifique la sesión actual.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 10/04/2016 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+            <param name="identificador">Identificador del hilo.</param>
+        </member>
+        <member name="M:Ada.Framework.Development.Log4Me.Log.Variable(System.String,System.Object)">
+            <summary>
+            Registra el nombre, tipo y valor de una variable en el método actual.
+            Requiere que el inicio y el retorno del método esté logeado.
+            </summary>
+            <example>
+                public int Sumar(int valor1, int valor2, int valor3)
+                {
+                    log.Inicio(valor1, valor2);
+                    int resultado = valor1 + valor2;
+                    
+                    log.Variable("resultado", resultado);
+                    retultado += valor3;
+                    
+                    log.Retorno(resultado);
+                    return resultado;
+                }
+            </example>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 02/03/2015 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+            <param name="nombre">Nombre de la variable.</param>
+            <param name="valor">Valor de la variable.</param>
+        </member>
+        <member name="M:Ada.Framework.Development.Log4Me.Log.Mensaje(System.String,Ada.Framework.Development.Log4Me.Entities.Nivel)">
+            <summary>
+            Registra un mensaje con un nivel de importancia en el flujo del método actual.
+            Requiere que el inicio y el retorno del método esté logeado.
+            </summary>
+            <example>
+                public class UsuarioBO
+                {
+                    private UsuarioDAO dao = new UsuarioDAO();
+                    
+                    public void Agregar(UsuarioTO usuario)
+                    {
+                        log.Mensaje("Antes de llamar al DAO", Nivel.INFO);
+                        dao.Agregar(usuario);
+                        log.Mensaje("Luego de llamar al DAO", Nivel.INFO);
+                    }
+                }
+            </example>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 02/03/2015 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+            <param name="mensaje">Mensaje a registrar.</param>
+            <param name="nivel">Nivel de importancia o tipo del mensaje.</param>
+        </member>
+        <member name="M:Ada.Framework.Development.Log4Me.Log.Inicio(System.Object[])">
+            <summary>
+            Registra el inicio de un método, guarda la hora actual y cada parametro especificando
+            nombre, tipo y valor. Se recomienda que esta sea la primera instrucción de cada método.
+            Si se logea el inicio, es obligatorio logear el retorno aunque el método sea Void.
+            </summary>
+            <example>
+                public void Metodo1(int a, string b, bool c)
+                {
+                    log.Inicio(a, b, c);
+                    log.Retorno();
+                }
+                
+                public void Metodo2()
+                {
+                    log.Inicio();
+                    log.Retorno();
+                }
+            </example>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 02/03/2015 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+            <param name="parametros">Lista de parametros del método actual.</param>
+        </member>
+        <member name="M:Ada.Framework.Development.Log4Me.Log.Retorno(System.Object)">
+            <summary>
+            Registra el fin de la ejecución de un método, guardando la fecha de termino, el valor de retorno y su tipo.
+            Se debe logear antes de retornar. Requiere que se haya logeado el inicio del método.
+            </summary>
+            <example>
+                public int Sumar(int valor1, int valor2)
+                {
+                    log.Inicio(valor1, valor2);
+                    int resultado = valor1 + valor2;
+                    log.Retorno(resultado);
+                    return resultado;
+                }
+            </example>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 02/03/2015 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+            <param name="valor">Valor de retorno del método.</param>
+        </member>
+        <member name="M:Ada.Framework.Development.Log4Me.Log.Retorno">
+            <summary>
+            Registra el fin de la ejecución de un método, guardando la fecha de termino, y un retorno de tipo Void.
+            Se debe logear antes de retornar. Requiere que se haya logeado el inicio del método.
+            </summary>
+            <example>
+                public void Metodo1()
+                {
+                    log.Retorno();
+                    // return; --> No es necesario. Sirve para ejemplificar que es el final del método.
+                }
+            </example>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 02/03/2015 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="M:Ada.Framework.Development.Log4Me.Log.Excepcion(System.Exception,System.Boolean)">
+            <summary>
+            Registra la información relevante de una excepción lanzada por un método. Se debe logear antes de ser lanzada.
+            Requiere que el inicio y el retorno del método esté logeado.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 02/03/2015 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+            <param name="excepcion">Excepción lanzada.</param>
+            <param name="permiteContinuar">Valor que indica si la excepción interrumpe el flujo (no permite continuar).
+            En caso de ser falso, se logea automáticamente el retorno del método como Excepción.</param>
+        </member>
+        <member name="M:Ada.Framework.Development.Log4Me.Log.CargarPuntero``1(``0)">
+            <summary>
+            Carga el puntero del log (MethodGUID) en una excepción.
+            Es útil para guardar el puntero exactamente donde ocurrió la excepción.
+            </summary>
+            <example>
+                public class UsuarioDAO
+                {
+                    public void Agregar(UsuarioTO usuario)
+                    {
+                        try
+                        {
+                            //Llamada a base de datos.
+                        }
+                        catch(Exception e)
+                        {
+                            throw log.CargarPuntero(e);
+                        }
+                    }
+                }
+                
+                public class UsuarioBO
+                {
+                    private UsuarioDAO dao = new UsuarioDAO();
+                    
+                    public void Agregar(UsuarioTO usuario)
+                    {
+                        try
+                        {
+                            dao.Agregar(usuario);
+                        }catch(Exception e)
+                        {
+                            string MethodGUID = log.ObtenerPuntero(e);
+                        }
+                    }
+                }
+            </example>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 02/03/2015 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+            <typeparam name="E">Tipo de la excepción que se lanzó.</typeparam>
+            <param name="excepcion">Excepción que se lanzó.</param>
+            <returns>Excepción cargada.</returns>
+        </member>
+        <member name="M:Ada.Framework.Development.Log4Me.Log.ObtenerPuntero(System.Exception)">
+            <summary>
+            Obtiene el puntero (MethodGUID) de una excepción con el puntero cargado mediante el método <see cref="M:Ada.Framework.Development.Log4Me.ILog.CargarPuntero``1(``0)"/>.
+            </summary>
+            <example>
+                public class UsuarioBO
+                {
+                    private UsuarioDAO dao = new UsuarioDAO();
+                    
+                    public void Agregar(UsuarioTO usuario)
+                    {
+                        try
+                        {
+                            dao.Agregar(usuario);
+                        }catch(Exception e)
+                        {
+                            string MethodGUID = log.ObtenerPuntero(e);
+                        }
+                    }
+                }
+                
+                public class UsuarioDAO
+                {
+                    public void Agregar(UsuarioTO usuario)
+                    {
+                        try
+                        {
+                            //Llamada a base de datos.
+                        }
+                        catch(Exception e)
+                        {
+                            log.CargarPuntero(e);
+                            throw e;
+                        }
+                    }
+                }
+            </example>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 02/03/2015 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+            <param name="excepcion">Excepción que contiene el puntero.</param>
+            <returns>MethodGUID.</returns>
+        </member>
+        <member name="T:Ada.Framework.Development.Log4Me.Log4MeManager">
+            <summary>
+            Administrador de Log4Me.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 10/04/2016 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="T:Ada.Framework.Development.Log4Me.Log4MeManager.InicializadorDelegate">
+            <summary>
+            Delegado inicializador de Log4Me sin parámetros.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 27/06/2016 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="F:Ada.Framework.Development.Log4Me.Log4MeManager.PrefijoThread">
+            <summary>
+            Prefijo para almacenar variables en el hilo actual.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 27/06/2016 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="P:Ada.Framework.Development.Log4Me.Log4MeManager.ThreadGUID">
+            <summary>
+            Obtiene el identificador único (GUID) del hilo actual.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 02/03/2015 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="P:Ada.Framework.Development.Log4Me.Log4MeManager.CurrentInstance">
+            <summary>
+            Permite obtener la instancia actual del Logger.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 10/04/2016 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="P:Ada.Framework.Development.Log4Me.Log4MeManager.Configuration">
+            <summary>
+            Permite obtener la configuración actual de Log4Me.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 10/04/2016 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="F:Ada.Framework.Development.Log4Me.Log4MeManager.Inicializador">
+            <summary>
+            Campo que contiene el delegado inicializador de Log4Me. 
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 27/06/2016 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="M:Ada.Framework.Development.Log4Me.Log4MeManager.#ctor(Ada.Framework.Development.Log4Me.Log4MeManager.InicializadorDelegate)">
+            <summary>
+            Constructor que define el delegado que inicializará Log4Me.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 27/06/2016 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+            <param name="inicializador">Delegado inicializador de Log4Me.</param>
+        </member>
+        <member name="M:Ada.Framework.Development.Log4Me.Log4MeManager.Inicializar">
+            <summary>
+            Inicializa el estado del log y carga los valores para su correcto funcionamiento. Debe ser llamado cada vez que se inicie un hilo, y antes
+            de logear cualquier cosa. (Se recomienda que en una aplicación web, se llame en Application_Start).
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 02/03/2015 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="M:Ada.Framework.Development.Log4Me.Log4MeManager.Inicializar(Ada.Framework.Development.Log4Me.Config.Entities.Log4MeConfig)">
+            <summary>
+            Inicializa el estado del log y carga los valores para su correcto funcionamiento. Debe ser llamado cada vez que se inicie un hilo, y antes
+            de logear cualquier cosa. (Se recomienda que en una aplicación web, se llame en Application_Start).
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 01/03/2016 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="M:Ada.Framework.Development.Log4Me.Log4MeManager.Inicializar(System.String)">
+            <summary>
+            Inicializa el estado del log y carga los valores para su correcto funcionamiento. Debe ser llamado cada vez que se inicie un hilo, y antes
+            de logear cualquier cosa. (Se recomienda que en una aplicación web, se llame en Application_Start).
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 01/03/2016 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+            <param name="rutaArchivo">Ruta del archivo de configuración.</param>
+        </member>
+        <member name="M:Ada.Framework.Development.Log4Me.Log4MeManager.ReInicializar">
+            <summary>
+            Reinicializa Log4Me mediante la configuración predeterminada.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 27/06/2016 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="M:Ada.Framework.Development.Log4Me.Log4MeManager.ReInicializar(Ada.Framework.Development.Log4Me.Config.Entities.Log4MeConfig)">
+            <summary>
+            Reinicializa Log4Me mediante la configuración recibida.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 27/06/2016 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+            <param name="config">Configuración de Log4Me.</param>
+        </member>
+        <member name="M:Ada.Framework.Development.Log4Me.Log4MeManager.ReInicializar(System.String)">
+            <summary>
+            Reinicializa Log4Me mediante la configuración desde un archivo.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 27/06/2016 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+            <param name="rutaArchivo">Ruta del archivo de configuración.</param>
+        </member>
+        <member name="T:Ada.Framework.Development.Log4Me.ManualLog">
+            <summary>
+            Clase que guarda el registro de eventos de una aplicación.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 02/03/2015 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="P:Ada.Framework.Development.Log4Me.ManualLog.LlamadaMethodGUID">
+            <summary>
+            Campo que contiene en un diccionario, las llamadas y su correspondiente GUID. Es utilizado para calcular el MethodGUID.
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 02/03/2015 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+            </summary>
+        </member>
+        <member name="P:Ada.Framework.Development.Log4Me.ManualLog.MethodGUID">
+            <summary>
+            Obtiene el identificador único (GUID) del método actual.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 02/03/2015 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="P:Ada.Framework.Development.Log4Me.ManualLog.Metodo">
+            <summary>
+            Permite obtener el método actual mediante reflexión.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 10/04/2016 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="M:Ada.Framework.Development.Log4Me.ManualLog.#ctor">
+            <summary>
+            Constructor que inicializa la clase de log.
+            Éste carga el ThreadGUID a la instancia e instancia el writter.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 02/03/2015 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="M:Ada.Framework.Development.Log4Me.ManualLog.Inicio(System.Object[])">
+            <summary>
+            Registra el inicio de un método, guarda la hora actual y cada parametro especificando
+            nombre, tipo y valor. Se recomienda que esta sea la primera instrucción de cada método.
+            Si se logea el inicio, es obligatorio logear el retorno aunque el método sea Void.
+            </summary>
+            <example>
+                public void Metodo1(int a, string b, bool c)
+                {
+                    log.Inicio(a, b, c);
+                    log.Retorno();
+                }
+                
+                public void Metodo2()
+                {
+                    log.Inicio();
+                    log.Retorno();
+                }
+            </example>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 02/03/2015 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+            <param name="parametros">Lista de parametros del método actual.</param>
+        </member>
+        <member name="M:Ada.Framework.Development.Log4Me.ManualLog.Retorno(System.Object)">
+            <summary>
+            Registra el fin de la ejecución de un método, guardando la fecha de termino, el valor de retorno y su tipo.
+            Se debe logear antes de retornar. Requiere que se haya logeado el inicio del método.
+            </summary>
+            <example>
+                public int Sumar(int valor1, int valor2)
+                {
+                    log.Inicio(valor1, valor2);
+                    int resultado = valor1 + valor2;
+                    log.Retorno(resultado);
+                    return resultado;
+                }
+            </example>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 02/03/2015 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+            <param name="valor">Valor de retorno del método.</param>
+        </member>
+        <member name="M:Ada.Framework.Development.Log4Me.ManualLog.Retorno">
+            <summary>
+            Registra el fin de la ejecución de un método, guardando la fecha de termino, y un retorno de tipo Void.
+            Se debe logear antes de retornar. Requiere que se haya logeado el inicio del método.
+            </summary>
+            <example>
+                public void Metodo1()
+                {
+                    log.Retorno();
+                    // return; --> No es necesario. Sirve para ejemplificar que es el final del método.
+                }
+            </example>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 02/03/2015 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="M:Ada.Framework.Development.Log4Me.ManualLog.AgregarGUID(System.String,System.String)">
+            <summary>
+            Agrega el metodo y el GUID al diccionario LlamadaMethodGUID, incrementando en 1 el número del método.
+            </summary>
+            <example>
+                - "Void Metodo1()|0", "199339ba-267a-42e8-806c-c36661697f70"
+                - "Void Metodo1()|1", "b8b7b800-a882-4032-8232-320e95cefa66"
+               Nota: En este caso el método sería recursivo, puesto que se llama más de una vez.
+            </example>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 02/03/2015 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+            <param name="metodo">Nombre del método que se está ejecutando.</param>
+            <param name="GUID">Identificador único de ejecución (MethodGUID).</param>
+        </member>
+        <member name="M:Ada.Framework.Development.Log4Me.ManualLog.VolverEjecucion(System.String)">
+            <summary>
+            Elimina el método y todas sus iteraciones del diccionario con los GUID´s.
+            </summary>
+            <example>
+                Con "Void Metodo1()", eliminaría:
+                    - "Void Metodo1()|0"
+                    - "Void Metodo1()|1"
+                    ....
+            </example>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 02/03/2015 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+            <param name="metodo">Nombre del método.</param>
+        </member>
+        <member name="T:Ada.Framework.Development.Log4Me.Writers.ALogWriter">
+            <summary>
+            Concepto y contrato de los escritores de Log4Me.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 10/04/2016 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="P:Ada.Framework.Development.Log4Me.Writers.ALogWriter.FormatoPredeterminado">
+            <summary>
+            Representa el formato predeterminado de salida. Sólo lectura.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 27/06/2016 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="P:Ada.Framework.Development.Log4Me.Writers.ALogWriter.SeparadorPredeterminado">
+            <summary>
+            Representa el separador de formato predeterminado de salida. Sólo lectura.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 27/06/2016 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="F:Ada.Framework.Development.Log4Me.Writers.ALogWriter.CaracteresDeReemplazo">
+            <summary>
+            Contiene un valor que debe ser reemplazado al formatear, y el valor con que será reemplazado.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 27/06/2016 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="F:Ada.Framework.Development.Log4Me.Writers.ALogWriter.parametrosAgregados">
+            <summary>
+            Contiene un valor que indica si los parámetros han sido persistidos o no.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 27/06/2016 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="F:Ada.Framework.Development.Log4Me.Writers.ALogWriter.inicializado">
+            <summary>
+            Contiene un valor que indica si el escritor ha sido inicializado o no.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 27/06/2016 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="P:Ada.Framework.Development.Log4Me.Writers.ALogWriter.Modo">
+            <summary>
+            Permite obtener o establecer el modo del escritor.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 10/04/2016 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="P:Ada.Framework.Development.Log4Me.Writers.ALogWriter._Modo">
+            <summary>
+            Permite obtener o establecer el modo del escritor.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 10/04/2016 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="P:Ada.Framework.Development.Log4Me.Writers.ALogWriter.SeparadorSalida">
+            <summary>
+            Permite obtener o establecer el separador del texto de salida.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 10/04/2016 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="P:Ada.Framework.Development.Log4Me.Writers.ALogWriter._SeparadorSalida">
+            <summary>
+            Permite obtener o establecer el separador del texto de salida.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 10/04/2016 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="P:Ada.Framework.Development.Log4Me.Writers.ALogWriter.FormatoSalida">
+            <summary>
+            Permite obtener o establecer el formato de salida del escritor.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 10/04/2016 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="P:Ada.Framework.Development.Log4Me.Writers.ALogWriter.ForzarTodosCampos">
+            <summary>
+            Permite obtener o establecer un valor que indica si se debe forzar la escritura de todos los campos en la salida.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 10/04/2016 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="P:Ada.Framework.Development.Log4Me.Writers.ALogWriter.SaltarGuardadoFormato">
+            <summary>
+            Permite obtener o establecer un valor que indica si se debe saltar la escritura del formato.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 10/04/2016 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="P:Ada.Framework.Development.Log4Me.Writers.ALogWriter.Incluidos">
+            <summary>
+            Permite obtener o establecer la lista de registros incluidos.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 10/04/2016 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="P:Ada.Framework.Development.Log4Me.Writers.ALogWriter.Excluidos">
+            <summary>
+            Permite obtener o establecer la lista de registros excluidos.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 10/04/2016 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="P:Ada.Framework.Development.Log4Me.Writers.ALogWriter.Tipos">
+            <summary>
+            Permite obtener o establecer la lista de niveles.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 10/04/2016 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="M:Ada.Framework.Development.Log4Me.Writers.ALogWriter.#ctor">
+            <summary>
+            Constructor que inicializa la instancia.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 10/04/2016 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="M:Ada.Framework.Development.Log4Me.Writers.ALogWriter.ObtenerCaracterReemplazo(System.Char)">
+            <summary>
+            Obtiene el valor de reemplazo de un caracter.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 27/06/2016 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+            <param name="caracterAReemplazar">Caracter a ser reemplazado.</param>
+            <returns>Valor con el que se debe reemplazar.</returns>
+        </member>
+        <member name="M:Ada.Framework.Development.Log4Me.Writers.ALogWriter.Formatear(Ada.Framework.Development.Log4Me.Entities.RegistroInLineTO)">
+            <summary>
+            Formatea un registro en una cadena de texto.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 10/04/2016 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+            <param name="registro">Registro unificado.</param>
+            <returns>Cadena de texto formateada.</returns>
+        </member>
+        <member name="M:Ada.Framework.Development.Log4Me.Writers.ALogWriter.CambiarCaracteres(System.String)">
+            <summary>
+            Cambia los caracteres prohibidos para la cómoda lectura posterior del log.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 10/04/2016 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+            <param name="registro">Regitro unificado.</param>
+            <returns>Cadena de texto normalizada.</returns>
+        </member>
+        <member name="M:Ada.Framework.Development.Log4Me.Writers.ALogWriter.PermiteTipo(Ada.Framework.Development.Log4Me.Entities.Tipo)">
+            <summary>
+            Obtiene un valor que indica si se permite escribir un determinado tipo.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 10/04/2016 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+            <param name="tipo">Tipo a logear.</param>
+            <returns><value>true</value> en caso de permitirse, o <value>false</value> de lo contrario.</returns>
+        </member>
+        <member name="M:Ada.Framework.Development.Log4Me.Writers.ALogWriter.ObtenerTipo(Ada.Framework.Development.Log4Me.Entities.Tipo,Ada.Framework.Development.Log4Me.Entities.Nivel)">
+            <summary>
+            Obtiene el tipo de configuración para el writer.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 10/04/2016 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+            <param name="tipo">Tipo a logear.</param>
+            <param name="nivel">Nivel del mensaje. Parámetro opcional.</param>
+            <returns><value>true</value> en caso de permitirse, o <value>false</value> de lo contrario.</returns>
+        </member>
+        <member name="M:Ada.Framework.Development.Log4Me.Writers.ALogWriter.PermiteNivel(Ada.Framework.Development.Log4Me.Entities.Nivel)">
+            <summary>
+            Obtiene un valor que indica si se permite escribir un determinado nivel de mensaje.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 10/04/2016 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+            <param name="nivel">Nivel de mensaje.</param>
+            <returns><value>true</value> en caso de permitirse, o <value>false</value> de lo contrario.</returns>
+        </member>
+        <member name="M:Ada.Framework.Development.Log4Me.Writers.ALogWriter.AgregarParametros">
+            <summary>
+            Persiste el formato y el separador.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 10/04/2016 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="M:Ada.Framework.Development.Log4Me.Writers.ALogWriter.Inicializar">
+            <summary>
+            Inicializa la instancia del escritor.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 10/04/2016 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="M:Ada.Framework.Development.Log4Me.Writers.ALogWriter.Guardar(Ada.Framework.Development.Log4Me.Entities.RegistroInLineTO)">
+            <summary>
+            Persiste el registro.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 27/06/2016 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+            <param name="registro">Registro unificado a ser escrito.</param>
+        </member>
+        <member name="M:Ada.Framework.Development.Log4Me.Writers.ALogWriter.Agregar(Ada.Framework.Development.Log4Me.Entities.RegistroInLineTO)">
+            <summary>
+            Persiste el registro recibido.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 10/04/2016 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+            <param name="registro">Registro unificado a ser escrito.</param>
+        </member>
+        <member name="T:Ada.Framework.Development.Log4Me.Writers.Modo">
+            <summary>
+            Enumeración de los modos de los writers disponibles.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 27/06/2016 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="M:Ada.Framework.Development.Log4Me.Writers.Modo.#ctor(System.String)">
+            <summary>
+            Obtiene o establece el código del modo.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 27/06/2016 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="F:Ada.Framework.Development.Log4Me.Writers.Modo.On">
+            <summary>
+            Obtiene el modo encendido (On). Valor de sólo lectura.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 27/06/2016 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+        <member name="F:Ada.Framework.Development.Log4Me.Writers.Modo.Off">
+            <summary>
+            Obtiene el modo apagado (Off). Valor de sólo lectura.
+            </summary>
+            <remarks>
+                Registro de versiones:
+                
+                    1.0 27/06/2016 Marcos Abraham Hernández Bravo (Ada Ltda.): versión inicial.
+            </remarks>
+        </member>
+    </members>
+</doc>
